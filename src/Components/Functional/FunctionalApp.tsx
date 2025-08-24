@@ -4,7 +4,7 @@ import { FunctionalFinalScore } from "./FunctionalFinalScore";
 import { useState } from "react";
 import { Images } from "../../assets/Images";
 
-const initialFishes: Fish[] = [
+const initialFishes = [
   {
     name: "trout",
     url: Images.trout,

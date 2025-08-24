@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./styles/game-board.css";
+import { Fish } from "../../types";
 
 type GameBoardProps = {
   currentFish: Fish;
